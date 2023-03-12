@@ -133,7 +133,6 @@ class AllProductsSection extends Component {
   clearFilter = () => {
     this.setState(
       {
-        activeOptionId: sortbyOptions[0].optionId,
         searchInput: '',
         categoryInputId: '',
         ratingInputId: '',
