@@ -154,7 +154,7 @@ class AllProductsSection extends Component {
   }
 
   searchInputProducts = searchVal => {
-    this.setState({searchInput: searchVal}, this.getProducts)
+    this.setState({searchInput: searchVal})
   }
 
   changeSortby = activeOptionId => {
